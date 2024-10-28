@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    font-family: "Manrope";
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 500px;
+}
+
+.container_left img {
+    width: 365px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.container_right {
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    display: grid;
+    grid-template-rows: 180px 50px;
+    padding: 30px;
+}
+
+.container_right .header span {
+    color: hsl(217, 19%, 35%);
+    font-weight: 800;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.container_right .header p {
+    font-size: 14px;
+    color:  hsl(212, 23%, 69%);
+    margin-top: 14px;
+}
+
+.container_right .footer_profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_right .footer_profile img {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.container_right .footer_profile .profile h3 {
+    margin: 0px;
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container_right .footer_profile .profile  p {
+    margin-top: 0px;
+    color: hsl(212, 23%, 69%);
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.container .button img {
+    width: 15px;
+    border: none;
+    padding: 10px;
+    background-color: hsla(212, 23%, 69%, 0.633);
+    position: absolute;
+    top: 450px;
+    left: 1050px;
+}
